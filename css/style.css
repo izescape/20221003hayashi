@@ -1,0 +1,54 @@
+.header {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  color:#000080;
+}
+
+.menu {
+  color: #000080;
+  text-decoration: none;
+  font-size: 16px;
+  margin: auto 10px;
+  display: inline-block;
+  
+}
+
+/* 
+以下のようにするとできました
+a {
+  color: #000080;
+  text-decoration: none;
+}
+*/
+
+.firstview {
+  margin: 500px 0px auto;
+}
+
+.firstview_title {
+  font-size: 48px;
+}
+
+.firstview_img {
+  position: relative;
+}
+
+.firstview_box {
+  width: 75vw;
+  height: 20vh;
+  background-color: #000080;
+
+}
+
+.img {
+  position: absolute;
+  width: 50%;
+  bottom: 50%;
+  left: 50%;
+  
+}
